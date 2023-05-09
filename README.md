@@ -11,6 +11,6 @@
 - After the previous command is executed, Enter the following command `npm start`
 - Wait for it to compile
 - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-- Enjoy the visualiser
+- Enjoy the visualizer
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

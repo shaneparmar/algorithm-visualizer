@@ -151,7 +151,7 @@ export default class WordSearch extends React.Component {
                   type="text"
                   id="word"
                   className="form-control"
-                  placeholder="Ex. BINOD"
+                  placeholder="Ex. SUN"
                 />
               </div>
               <div

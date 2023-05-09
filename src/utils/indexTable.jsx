@@ -6,7 +6,6 @@ import NQueensThumb from "./thumbs/nqueens.jpg";
 import PathThumb from "./thumbs/path.jpg";
 import SortingThumb from "./thumbs/sorting.jpg";
 import WordSearch from "./thumbs/word_search.jpg";
-import Filling from "./thumbs/fill.png";
 
 import MaskedStyleSVG from "./svg/maskShapesNew.svg";
 
@@ -35,7 +34,7 @@ export default class IndexTable extends React.Component {
           <h1 style={maskStyles} className="maskText mt-1">
             Algorithms
             <br />
-            Visualiser
+            Visualizer
           </h1>
         </div>
         <center>
@@ -81,6 +80,16 @@ export default class IndexTable extends React.Component {
               </NavLink>
             </div>
             <div className="col-sm-4 col-6">
+              <NavLink to="/rat-in-a-maze">
+                <img
+                  className="img-fluid w-20 shadowB"
+                  src={NQueensThumb}
+                  alt="RatInAMaze"
+                />
+                <p className="text-light thumb-title">Rat In A Maze</p>
+              </NavLink>
+            </div>
+            <div className="col-sm-4 col-6">
               <NavLink to="/word-search">
                 <img
                   className="img-fluid w-20 shadowB"
@@ -90,19 +99,9 @@ export default class IndexTable extends React.Component {
                 <p className="text-light thumb-title">Word Searching</p>
               </NavLink>
             </div>
-            <div className="col-sm-4 col-6">
-              <NavLink to="/filling">
-                <img
-                  className="img-fluid w-20 shadowB"
-                  src={Filling}
-                  alt="Filling"
-                />
-                <p className="text-light thumb-title">Filling</p>
-              </NavLink>
-            </div>
           </div>
           <div className="text-center text-light mt-4">
-            Happy Visualisation Day!
+            Happy Visualization Day!
           </div>
         </center>
       </div>

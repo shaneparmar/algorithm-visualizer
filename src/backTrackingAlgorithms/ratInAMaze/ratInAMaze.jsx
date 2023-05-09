@@ -1,12 +1,12 @@
 import React from "react";
 
-import BackBar from "./../../utils/backbar";
+import BackBar from "../../utils/backbar";
 
 import {
   solveMaze,
   prepareSolutionBoardOfZeroes,
-} from "./../backTrackingAlgorithms";
-import { randomIntFromInterval } from "./../../utils/randomIntFromInterval";
+} from "../backTrackingAlgorithms";
+import { randomIntFromInterval } from "../../utils/randomIntFromInterval";
 // Stylesheets
 import "./ratInAMaze.css";
 

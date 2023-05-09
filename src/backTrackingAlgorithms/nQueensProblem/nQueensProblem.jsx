@@ -217,7 +217,7 @@ export default class NQueensProblem extends React.Component {
                   <center>
                     <h2 className="text-light">
                       <img className="mb-2" src={crown} width="40px" alt={""} />{" "}
-                      N-Queens Visualiser
+                      N-Queens Visualizer
                     </h2>
                   </center>
                 </div>
@@ -251,12 +251,10 @@ export default class NQueensProblem extends React.Component {
                 <center>
                   <small className="text-muted">
                     <div className="mt-2"></div>
-                    The Visualiser works best for board sizes between 4 and 8
+                    The Visualizer works best for board sizes between 4 and 8
                     inclusive. Larger board sizes would make the page
                     unresponsive because of huge number of computations. &nbsp;
-                    <a href="https://github.com/dipeshpatil/algorithms-visualiser/tree/master/src/backTrackingAlgorithms">
-                      GitHub Repo for this project
-                    </a>
+
                   </small>
                 </center>
               ) : null}
