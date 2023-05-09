@@ -34,12 +34,12 @@ const ComplexityTable = () => (
             O(V) = O(b<sup>d</sup>)
           </td>
         </tr>
-        <tr>
+        {/* <tr>
           <td className="text-warning">A* Search</td>
           <td>O(E)</td>
           <td>O(V)</td>
-        </tr>
-        <tr>
+        </tr> */}
+        {/* <tr>
           <td className="text-warning">Bi-Directional Search</td>
           <td>
             O(b<sup>d/2</sup>)
@@ -47,7 +47,7 @@ const ComplexityTable = () => (
           <td>
             O(b<sup>d/2</sup>)
           </td>
-        </tr>
+        </tr> */}
       </tbody>
     </table>
   </div>

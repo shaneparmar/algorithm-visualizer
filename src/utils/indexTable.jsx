@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 
 import BinaryThumb from "./thumbs/binary.jpg";
 import NQueensThumb from "./thumbs/nqueens.jpg";
+import RatThumb from "./thumbs/rat.jpg";
 import PathThumb from "./thumbs/path.jpg";
 import SortingThumb from "./thumbs/sorting.jpg";
 import WordSearch from "./thumbs/word_search.jpg";
@@ -83,7 +84,7 @@ export default class IndexTable extends React.Component {
               <NavLink to="/rat-in-a-maze">
                 <img
                   className="img-fluid w-20 shadowB"
-                  src={NQueensThumb}
+                  src={RatThumb}
                   alt="RatInAMaze"
                 />
                 <p className="text-light thumb-title">Rat In A Maze</p>

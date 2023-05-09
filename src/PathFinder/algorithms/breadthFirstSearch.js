@@ -26,7 +26,7 @@ export function bfs(grid = [], startNode, finishNode) {
     return [visitedNodesInOrder, calculatePath(finishNode)];
   }
   
-  function calculatePath(finishNode) {
+  function calculatePath(finishNode) { //Calculates the path from start to finish
     const shortestPathNodes = [];
     let currentNode = finishNode;
     while (currentNode !== null) {
@@ -36,7 +36,7 @@ export function bfs(grid = [], startNode, finishNode) {
     return shortestPathNodes;
   }
   
-  function getAllNeighbors(grid = [], node) {
+  function getAllNeighbors(grid = [], node) { //Returns the neighbors of the current node
     const ROWS = grid.length;
     const COLS = grid[0].length;
   
